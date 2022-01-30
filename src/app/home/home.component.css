@@ -1,0 +1,177 @@
+
+
+.header {
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgb(2 0 26), rgba(14, 13, 12, 0.7)), url('./assets/images/banner.png'); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: 0; */
+    /* transform: scale(1.15); */
+    transition: opacity 1s ease;
+    /* animation: grow 4s linear forwards; */
+    opacity: 1
+}
+
+
+@keyframes grow {
+    0%, 20% {
+        transform: scale(1.5);
+    }
+
+    75%, 100% {
+        transform: scale(1);
+    }
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    font-weight: bold;
+    /* margin-bottom: -20px; */
+    /* color: #e56230; */
+    color: #1b74bb;
+    /* animation: grow 4s linear backwards; */
+}
+
+.text-box h1 a {
+    text-decoration: none;
+}
+
+.text-box span {
+    font-size: 30px;
+    color: #062193;
+    font-weight: bold;
+}
+
+.text-box h1::after {
+    content: '';
+    color: white;
+    width: 0%;
+    height: 2px;
+    background: #f05a2a;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.text-box h1:hover::after{
+    width: 45%;
+} 
+
+.text-box p {
+    margin: 0px 40px 40px 40px;
+    font-size: 14px;
+}
+
+.visit-btn {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.visit-btn:hover {
+    border: 1px solid #f05a2a;
+    color: #062193;
+    font-weight: bold; 
+    background: #f05a2a;
+    transition: 1.5s;
+}
+/* nav .bi {
+    display: none;
+} */
+
+/* -----SERVICES--- */
+
+.services {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.services h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.services p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+    
+    .text-box span {
+        font-size: 15px;
+    }
+
+    .text-box span:hover::after{
+        width: 70%;
+    } 
+
+    .text-box p {
+        margin: 35px 20px 40px 40px;
+    }
+
+    /* .nav-link ul li {
+        display: block;
+    }
+
+    .nav-link {
+        background: #f05a2a;
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .bi {
+        display: block;
+        color: #fff;
+        margin: 15px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-link ul {
+        padding: 30px;
+    } 
+
+    nav img {
+        margin-top: 15px;
+        margin-left: 0px;
+    }*/
+}
+
