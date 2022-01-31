@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
+
 
 .navbar-brand {
   margin-left: 30px;
@@ -37,6 +33,46 @@
   margin: auto;
 }
 
+/* footer section */
+
+.site-footer {
+  padding: 5em 0;
+  background: #004e8d;
+  border-top-right-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  
+}
+
+.site-footer p:last-child{
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  /* text-decoration: none; */
+  color: #f05a2a;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+
+.site-footer a :hover{
+  color: blue;
+  border-bottom: 1px solid red;
+
+}
+
+.site-footer h2 {
+  font-size: 22px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color: #fff;
+}
+
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 15px;
+
+}
 /* @media screen and (max-width: 800px) {
   .navbar-nav ul li {
     display: block;

@@ -1,6 +1,11 @@
-<section class="header" 
-style=" background-image: linear-gradient(rgb(2 0 26), rgba(14, 13, 12, 0.7)), url('./assets/images/banner.png');">
-    <!-- <nav
+<section
+  class="header"
+  style="
+    background-image: linear-gradient(rgb(2 0 26), rgba(14, 13, 12, 0.7)),
+      url('./assets/images/banner.png');
+  "
+>
+  <!-- <nav
       class="navbar navbar-expand-lg navbar-light"
       style="background-color: none; height: 115px"
     >
@@ -54,23 +59,66 @@ style=" background-image: linear-gradient(rgb(2 0 26), rgba(14, 13, 12, 0.7)), u
         </div>
       </div>
     </nav> -->
-  
-    <div class="text-box">
-      <h1> <a routerLink="/our-company">INNOVIZ SYSTEMS</a> </h1>
-      <p>
+
+  <div class="text-box">
+    <h1><a routerLink="/our-company">INNOVIZ SYSTEMS</a></h1>
+    <!-- <p>
         “Use the best possible materials, and reveal the quality of those
         materials <br />
         and the craftsmanship of their assembly.” – Karl Friedrich Schinkel
-      </p> 
-      <a routerLink="/services" class="visit-btn">Our Services</a>
-    </div>
-  </section>
-<section class="services">
-    <h3>Our Services</h3>
-    <p>We provide all kinds of constrution and building services and we are always glad to resolve 
-        nonstatndard and unique tasks. We always take challenges and bring them to a conclusion.
-    </p>
-
-    
+      </p>  -->
+    <a routerLink="/services" class="visit-btn">Our Services</a>
+  </div>
 </section>
-  
+<section class="services">
+  <h3>Our Services</h3>
+  <p>
+    We provide all kinds of constrution and building services and we are always
+    glad to resolve nonstatndard and unique tasks. We always take challenges and
+    bring them to a conclusion.
+  </p>
+  <div class="container">
+     <div class="row">
+      <div class="col col-md-4" *ngFor="let service of services; let i = index">
+        <div class="card text-center" >
+          <img [src]= service.img class="card-img-top" alt="..." style="height: 12rem;"/>
+          <div class="card-body">
+            <h5 class="card-title">{{service.name}}</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a class="btn btn-primary" (click)="onSelectService(service)">know more</a>
+          </div>
+        </div>
+        <div style="padding-bottom: 25px;"></div>
+      </div>
+    </div> 
+    <div class="row ">
+      <div class="d-grid gap-2 col-6 mx-auto link">  
+        <a class="btn btn-outline-primary" routerLink="/services" role="button">Check more services</a>
+        <!-- <button class="btn btn-primary">Check more services</button> -->
+      </div>
+    </div>
+  </div>
+ 
+  <!-- <div class="container">
+    <div class="row">
+     <div class="col col-md-4" *ngFor="let service of services; let i = index">
+       <div class="card">
+        <a href="">
+         <img [src]= service.img class="card-img-top" alt="..." style="height: 12rem;"/>
+         <div class="card-body">
+           <h5 class="card-title">{{service.name}}</h5>
+         </div>
+         </a>
+       </div>
+       <div style="padding-top: 25px;"></div>
+     </div>
+   </div>   
+
+   
+ </div>-->
+
+
+</section>
