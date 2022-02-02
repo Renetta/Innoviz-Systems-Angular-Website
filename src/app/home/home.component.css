@@ -1,7 +1,7 @@
 
 
 .header {
-    margin-top: 100px;
+    margin-top: 70px;
     height: 100vh;
     width: 100%;
     /* background-image: linear-gradient(rgb(2 0 26), rgba(14, 13, 12, 0.7)), url('./assets/images/banner.png'); */
@@ -44,7 +44,7 @@
     color: #1b74bb;
     /* font-weight: bold; */
     /* animation: grow 4s linear infinite; */
-    text-shadow: 4px 0 0 beige; 
+    text-shadow: 1px 0 0 beige; 
     
 }
 
@@ -54,9 +54,9 @@
     font-size: xxx-large;
     font-weight: bold;
     color: #1b74bb;
-    -webkit-text-stroke: 0.3em #fff;
+    -webkit-text-stroke: -0.9em #fff;
     -webkit-text-stroke-width: 1px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 .text-box span {
