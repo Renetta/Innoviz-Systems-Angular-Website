@@ -207,6 +207,31 @@
     background: #062193;
 }
 
+/* --- partners--- */
+
+.partners {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.partners h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.partners img {
+    transition: all 0.3s ease;
+}
+
+.partners img:hover {
+    box-shadow: 0 0 10px 1px #f05a2a; 
+}
+
+
 
 @media(max-width: 700px) {
     .text-box h1 {

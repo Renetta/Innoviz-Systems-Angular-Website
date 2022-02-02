@@ -1,0 +1,133 @@
+{
+    "Partners": [{
+        "id": 2001,
+        "partnerName": "Ooredoo-Qatar",
+        "partnerLogo": "./assets/images/partners/ooredoo1.png"
+    }, {
+        "partnerName": "Commercial Bank of Qatar(CBQ)",
+        "partnerLogo": "./assets/images/partners/cbq.png"
+    }, {
+        "id": 2002,
+        "partnerName": "HMC Qatar",
+        "partnerLogo": "./assets/images/partners/hmc.png"
+    }, {
+        "id": 2003,
+        "partnerName": "Takyeef Electro Mechanical WLL",
+        "partnerLogo": "./assets/images/partners/takyeef.png"
+    }, {
+        "id": 2004,
+        "partnerName": "Asmacs Group-Qatar",
+        "partnerLogo": "./assets/images/partners/asmacs.png"
+    }, {
+        "id": 2005,
+        "partnerName": "Bold Information Technologies-AbuDhabi",
+        "partnerLogo": "./assets/images/partners/bold.png"
+    }, {
+        "id": 2006,
+        "partnerName": "Traffic Tech",
+        "partnerLogo": "./assets/images/partners/trafficTech.png"
+    }, {
+        "id": 2006,
+        "partnerName": "Novax Integrated System-Dubai",
+        "partnerLogo": "./assets/images/partners/novax.png"
+    }, {
+        "id": 2006,
+        "partnerName": "Integrated Scientific Technologies Qatar",
+        "partnerLogo": "./assets/images/partners/ISQ.png"
+    }],
+
+    "Services": [
+        
+        {
+          "id": 10002,
+          "name": "Security Solutions",
+          "img": "./assets/images/securitysoln.png",
+          "description":"",
+          "details": [
+            "CCTV systems",
+            "Perimeter Security",
+            "Setting up Control Centers",
+            "Access Control Systems",
+            "Visitors Management System"
+          ]
+        },
+        {
+          "id": 10003,
+          "name": "Networking Solutions",
+          "img": "./assets/images/networking.png",
+          "description":"",
+          "details": [
+            "Structure Cabling",
+            "IP Telephony",
+            "Routing & Switching",
+            "Perimeter & Core Firewalls",
+            "Wireless Networking",
+            "SDWAN"
+          ]
+        },
+        {
+          "id": 10004,
+          "name": "Parking Solutions",
+          "img": "./assets/images/parking.png",
+          "description":"",
+          "details": [
+            "Parking Guidance System",
+            "Parking Revenue System",
+            "Speed Gates",
+            "Turnstile gates",
+            "Hydraulic Bollards",
+            "Road Blockers",
+            "Automatic Barriers",
+            "Ticketing Systems",
+            "Booth Systems",
+            "VIP/Valet Parking"
+          ]
+        },
+        {
+          "id": 10005,
+          "name": "Information Security",
+          "img": "./assets/images/infosec.png",
+          "description":"",
+          "details": [
+            "Identity and Privilege Access",
+            "Management (PAM)",
+            "Integrated Risk Management",
+            "Threat Detection and Response",
+            "Application and Email Security",
+            "Data Loss Prevention (DLP)",
+            "Cloud Security",	
+            "Security Operation Center"
+          ]
+        },
+        {
+          "id": 10006,
+          "name": "Fiber Optic Solutions",
+          "img": "./assets/images/fibreOptic.png",
+          "description":"",
+          "details": [
+            "Supply and Installation",
+            "Design Services for Complete Fiber Optic System", 
+            "Cable pulling & Splicing Services",
+            "Testing & Reporting Services"
+          ]
+        },
+        {
+            "id": 10001,
+            "name": "Electrical Solutions",
+            "img": "./assets/images/electric-services.png",
+            "description":"",
+            "details": [
+              "Parking Guidance System",
+              "Parking Revenue System",
+              "Speed Gates",
+              "Turnstile gates",
+              "Hydraulic Bollards",
+              "Road Blockers",
+              "Automatic Barriers",
+              "Ticketing Systems",
+              "Booth Systems",
+              "VIP/Valet Parking"
+            ]
+          }
+      ]
+}

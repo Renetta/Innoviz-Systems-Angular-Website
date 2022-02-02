@@ -73,7 +73,7 @@
 <section class="services">
   <h3>Our Services</h3>
   <p>
-    We provide all kinds of constrution and building services and we are always
+    We provide all kinds of Information and Communications technology solutions and we are always
     glad to resolve nonstatndard and unique tasks. We always take challenges and
     bring them to a conclusion.
   </p>
@@ -85,10 +85,9 @@
           <div class="card-body">
             <h5 class="card-title">{{service.name}}</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {{service.description}}
             </p>
-            <a class="btn btn-primary" (click)="onSelectService(service)">know more</a>
+            <!-- <a class="btn btn-primary" (click)="onSelectService(service)">know more</a> -->
           </div>
         </div>
         <div style="padding-bottom: 25px;"></div>
@@ -97,7 +96,6 @@
     <div class="row ">
       <div class="d-grid gap-2 col-6 mx-auto link">  
         <a class="btn btn-outline-primary" routerLink="/services" role="button">Check more services</a>
-        <!-- <button class="btn btn-primary">Check more services</button> -->
       </div>
     </div>
   </div>
@@ -120,5 +118,17 @@
    
  </div>-->
 
+</section>
 
+<!-- ----partners--- -->
+
+<section class="partners">
+  <h3 class="text-center">Our Clients</h3>
+  <div class="container">
+    <owl-carousel-o [options]="partnerOptions">
+      <ng-template carouselSlide *ngFor="let partner of partners; let i=index;">
+        <img [src]="partner.partnerLogo" alt="partner" style="width: 150px">
+      </ng-template>
+    </owl-carousel-o>
+  </div>
 </section>
