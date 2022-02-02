@@ -1,3 +1,46 @@
-.container {
+.service-container {
     margin-top: 150px;
+    
+    /* height: 10%; */
 }
+
+.container {
+    width: 100%;
+}
+
+.carousel-container img {
+    height: 350px;
+    width: 100%;
+}
+
+owl-carousel-o div h1, owl-carousel-o div .textoverlay{
+    position:absolute;
+    color:#042d58f5;
+    font-weight: bolder;
+   /* font-size:12px; */
+   /* display:block; */
+   width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transition: all 1.5s ease; */
+    text-shadow: 4px 0 0 beige; 
+}
+
+.accordion-body img {
+    position: relative;
+    width: 450px;
+}
+
+@media screen and (max-width: 991px) {
+    /* .container {
+        width: 50%;
+    } */
+    .owl-carousel-o div h1, owl-carousel-o div .textoverlay{
+        width: 50%;
+    }
+}
+
+
+
+

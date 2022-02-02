@@ -1,3 +1,60 @@
-<div class="container">
-    <p>main service details</p>
-</div>
+<section class="service-container">
+    <!-- <div class="container">
+    <owl-carousel-o [options]="serviceOptions" class="carousel-container">
+        <ng-template carouselSlide *ngFor="let service of services; let i=index;">
+            <div>
+                <div class="textoverlay">
+                    <h1 class=" text-center">{{service.name}}</h1>
+                </div>
+                <img [src]="service.img" alt="service" >
+            </div>
+        </ng-template>
+      </owl-carousel-o>
+</div> -->
+    <!-- <p>Some text bla bla bla</p> -->
+    
+</section>
+<!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"
+     >
+        <div class="carousel-inner" *ngFor="let service of serviceImages;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img [src]="service.img" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{service.name}}</h5>
+            </div>
+          </div>
+        </div>
+      </div> -->
+<section id="services" class="serviceDetails">
+    <div class="container">
+        <div class="row justify-content-around align-items-center">
+            <div class="accordion" *ngFor="let service of services; let i = index;">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            {{service.name}}
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-8 col-lg-8">
+                                    <img src="{{service.img}}" alt={{service.name}}>
+                                </div>
+                                <div class="col-4 col-lg-4">
+                                    <ul>
+                                        <li *ngFor="let details of service.details">
+                                            {{details}}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

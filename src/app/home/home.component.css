@@ -14,6 +14,7 @@
     transition: opacity 1s ease;
     /* animation: grow 4s linear forwards; */
     opacity: 1
+
 }
 
 
@@ -35,6 +36,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
 }
 
 .text-box h1 {
@@ -42,7 +44,7 @@
     color: #1b74bb;
     /* font-weight: bold; */
     /* animation: grow 4s linear infinite; */
-
+    text-shadow: 4px 0 0 beige; 
     
 }
 
