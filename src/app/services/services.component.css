@@ -3,6 +3,21 @@
     background:  rgb(176 179 185 / 25%);
 }
 
+.header {
+    margin-top: 115px;
+    position: relative;
+    background: #435b7e;
+    color: aliceblue;
+    padding: 0px;
+    margin-bottom: -110px;
+    /* width: 200%; */
+    text-align: center;
+
+}
+.header p {
+    font-size: 13px;
+}
+
 .container {
     width: 100%;
 }
