@@ -1,25 +1,5 @@
-<!-- <section class="service-container">
-<div class="container carousel-containers">
-    <div class="row">
-        <div class="col-md-12">
-            <owl-carousel-o [options]="serviceOptions" class="carousel-container">
-                <ng-template carouselSlide *ngFor="let service of services; let i=index;">
-                    <div>
-                        <div class="text-box">
-                            <h1>{{service.name}}</h1>
-                        </div>
-
-                        <img [src]="service.img" alt="service" >
-                    </div>
-                </ng-template>
-              </owl-carousel-o>
-        </div>
-    </div>
-</div>
-</section> -->
-<!-- <section class="service-container"></section> -->
 <section id="header" class="header">
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="col-md-12">
                 <h2>Services</h2>
@@ -29,20 +9,21 @@
     </div>
 </section>
 <section id="services" class="service-container serviceDetails">
-    <div class="container">
+    <div class="container" style="padding-bottom: 20px;">
         <div class="row justify-content-around align-items-center">
-            <div class="accordion" id="'accordionExample_{{i}}'" 
+            <div class="accordion" attr.id="accordionExample" 
             *ngFor="let service of services; let i = index;">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="'headingOne_{{i}}'">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" 
-                    [attr.data-bs-target]="'#collapseOne_{{i}}'" aria-expanded="true" 
-                    [attr.aria-controls]="'collapseOne_{{i}}'">
-                      {{service.name}}
+                <div class="accordion-item" >
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" [attr.data-bs-toggle]="'collapse'" 
+                    [attr.data-bs-target]="'#collapseOne_' + i"  [attr.aria-bs-controls]="'collapseOne_' + i">
+                      {{service.name}} 
                     </button>
                   </h2>
-                  <div id="'collapseOne_{{i}}'" class="accordion-collapse collapse show"
-                   [attr.aria-labelledby]="'headingOne_{{i}}'" [attr.data-bs-parent]="'#accordionExample_{{i}}'">
+                  <div [attr.id]="'collapseOne_' + i" class="accordion-collapse collapse"  
+                  [class.show]='i == 0 ? true : false'
+                   aria-labelledby="headingOne" 
+                   data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="row">
                             <div class="col-md-8">

@@ -139,6 +139,7 @@
       ]
     }
   ],
+
   "ServiceComponents": [
     {
       "id": 10002,
@@ -219,16 +220,12 @@
       "img": "./assets/images/electric-services.png",
       "description": "",
       "details": [
-        "Parking Guidance System",
-        "Parking Revenue System",
-        "Speed Gates",
-        "Turnstile gates",
-        "Hydraulic Bollards",
-        "Road Blockers",
-        "Automatic Barriers",
-        "Ticketing Systems",
-        "Booth Systems",
-        "VIP/Valet Parking"
+        "Supply",
+        "Installation",
+        "Testing & Commissioning",
+        "UPS System",
+        "Earthing and boring solutions",
+        "Electrical maintenance"
       ]
     },
     {
@@ -336,5 +333,13 @@
           "AMC Support"
         ]
       }
-  ]
+  ],
+
+  "CompanyContactDetails": {
+    "address": "Abdul Rahman Bin Jassim Street, AL WAKRA, DOHA-QATAR",
+    "phone": "+974 4435 7958",
+    "mobile": "+974 5021 6760",
+    "email": "info@innovizqatar.com",
+    "website": "www.innovizqatar.com"
+  }
 }

@@ -1,3 +1,102 @@
-<div class="container">
-  <p>Page under Updation</p>
- </div>
+<!-- <section class="header">
+  <div class="row">
+  <div class="col-md-12 contact-image" style="background-image: url('./assets/images/contact.png');">
+  </div>
+  </div>
+</section> -->
+<section class="contact-size">
+
+</section>
+<section class="footer-contact-section">
+  <div class="container contact-container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="mb-5">
+          <i class="bi bi-geo-alt-fill contact-address-circle" style="font-size: 2rem; 
+          color: white;"></i><br>
+             <span class="contact-font">
+            {{company.address || undefined}}
+          </span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-telephone-fill contact-phone-circle" style="font-size: 2rem; 
+        color: white;"></i><br>
+          <span style="margin-left: 40px;" class="contact-font">{{company.phone}}</span> <br>
+          <span style="margin-left: 40px;" class="contact-font">{{company.mobile}}</span>
+        
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-send-fill contact-mail-circle" style="font-size: 2rem; 
+        color: white;"></i><br>
+          <a href="#/contact" class="contact-font">{{company.email}}</a>
+        
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-globe2 contact-website-circle" style="font-size: 2rem; 
+        color: white;"></i><br>
+          <span>
+          <a href="#" class="contact-font">{{company.website}}</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" style="margin-top: -80px;">
+  <!-- <div class="container contact-header">
+  <div class="row ">
+    <div class="col-md-12">
+        <h2>Contact US</h2>
+    </div>
+    </div>
+</div> -->
+  <div class="container">
+    <div class="row contact-header">
+      <div class="col-md-12">
+          <h2>Contact US</h2>
+      </div>
+      </div>
+    <div class="row contact-form-row">
+
+     <div class="col-md-5">
+        <div class="mb-3">
+          <label for="formGroupNameInput" class="form-label"><b>Full Name*</b></label>
+          <input type="text" class="form-control" id="formGroupNameInput"
+            placeholder="Please enter your Name">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupEmailInput" class="form-label"><b>Your Email*</b></label>
+          <input type="email" name="email" id="formGroupEmailInput" class="form-control"
+            placeholder="Please enter your E-mail">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupPhoneInput" class="form-label"><b>Your Phone*</b></label>
+          <input type="number" name="phone" id="formGroupPhoneInput" class="form-control"
+            placeholder="Please enter your Contact number">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupCompanyInput" class="form-label"><b>Your Company</b></label>
+          <input type="text" class="form-control" id="formGroupCompanyInput"
+            placeholder="Please enter your company name">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupSubjectInput" class="form-label"><b>Subject*</b></label>
+          <input type="text" class="form-control" id="formGroupSubjectInput"
+            placeholder="Please enter the Subject">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupBodyInput" class="form-label"><b>Message*</b></label>
+          <textarea name="message" class="form-control" id="formGroupBodyInput" cols="30" rows="3"
+          placeholder="Please enter your message"></textarea>
+        </div>
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary">Send Message</button>
+        </div>
+     </div>
+     <div class="col-md-7">
+
+     </div>
+    </div>
+  </div>
+</section>
+

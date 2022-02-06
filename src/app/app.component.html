@@ -1,33 +1,24 @@
-
 <section id="nav-header">
-<nav
-      class="navbar fixed-top navbar-expand-md navbar-light"
-      style="background-color: #183f69;"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" routerLink="/home"
-          ><img [src]="'./assets/images/logo.png'" width="100" alt="InnovizLogo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-expanded="false">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" routerLink="/home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/our-company">Our Company</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/services">Services</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+  <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #183f69;">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/home"><img [src]="'./assets/images/logo.png'" width="100"
+          alt="InnovizLogo" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-expanded="false">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/our-company">Our Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/services">Services</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 id="navbarDropdownMenuLink"
@@ -48,20 +39,19 @@
                 <a class="dropdown-item" routerLink="/services">more services...</a>
               </div>
             </li> -->
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/careers">Careers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/careers">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </section>
+    </div>
+  </nav>
+</section>
 
 <router-outlet></router-outlet>
-<hr>
 <!-- footer section -->
 
 <footer class="site-footer">
@@ -70,29 +60,37 @@
       <div class="col-md-4">
         <span class="heading">Our Company</span>
         <div class="space-align"></div>
-        <p>Our aim is to provide a high level of solutions and services to a 
-          growing market in the state of Qatar.</p>
-        <p ><a routerLink="/our-company" class="about-link">Click here to know more</a></p>
+        <p>We aim in providing right and specific solutions to clients.
+          We take care of the growing market in the state of Qatar with our knowledge and expertise.</p>
+        <p><a routerLink="/our-company" class="about-link">Click here to know more</a></p>
       </div>
       <div class="col-md-4">
         <span class="heading">Contact Us</span>
         <div class="space-align"></div>
         <ul class="list-unstyled footer-link">
           <li class="d-flex">
-            <span class="me-3" style="padding-right: 15px;"><fa-icon [icon]="faMap"></fa-icon></span>
+            <span class="me-3" style="padding-right: 15px;">
+              <fa-icon [icon]="faMap"></fa-icon>
+            </span>
             <span class="tex-white">Abdul Rahman Bin Jassim Street, <br>
               AL WAKRA, DOHA-QATAR</span>
           </li>
           <li class="d-flex">
-            <span class="me-3" style="padding-right: 15px;"><fa-icon [icon]="faPhone"></fa-icon></span>
+            <span class="me-3" style="padding-right: 15px;">
+              <fa-icon [icon]="faPhone"></fa-icon>
+            </span>
             <span class="tex-white">+974 44357958</span>
           </li>
           <li class="d-flex">
-            <span class="me-3" style="padding-right: 15px;"><fa-icon [icon]="faMobile"></fa-icon></span>
+            <span class="me-3" style="padding-right: 15px;">
+              <fa-icon [icon]="faMobile"></fa-icon>
+            </span>
             <span class="tex-white">+974 50216760 </span>
           </li>
           <li class="d-flex">
-            <span class="me-3" style="padding-right: 15px;"><fa-icon [icon]="faEnvelope"></fa-icon></span>
+            <span class="me-3" style="padding-right: 15px;">
+              <fa-icon [icon]="faEnvelope"></fa-icon>
+            </span>
             <span class="tex-white">info@innovizqatar.com</span>
           </li>
         </ul>
