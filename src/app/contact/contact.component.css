@@ -1,7 +1,7 @@
 .contact-size {
-    margin-top: 150px;
+    margin-top: 110px;
 }
-
+/* 
 .container {
     background: #e8edf0;
     margin-bottom: 58px;
@@ -59,8 +59,8 @@
     padding: 14px;
 }
 
-.contact-website-circle::before {
-    content: "\F3EF";
+.contact-mobile-circle::before {
+    content: "\F4E2";
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -79,3 +79,35 @@ i {
 .contact-font {
     font-size: small;
 }
+
+.contact-font-mobile {
+    font-size: small;
+
+} */
+
+.contact {
+    margin-top: 70px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: opacity 1s ease;
+}
+
+
+
+.contactus-heading {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.contact-info {
+    color: #fff;
+    line-height: 30px;
+    font-size: large;
+    font-style: italic;
+}
+
+

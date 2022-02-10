@@ -19,10 +19,13 @@ export class HomeComponent implements OnInit {
   services: any = [];
   partnerOptions: OwlOptions = {
     loop: true,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: false,
+    dots: true,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
